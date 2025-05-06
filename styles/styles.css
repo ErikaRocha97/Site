@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #dcdcdc;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+  background-color: #fff;
+}
+
+a {
+  color: #111;
+}
+
+.btn-default {
+  background-color: #111;
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-default a {
+  color: white;
+}
+
+#logo {
+  font-size: 40px;
+}
+
+#nav-user {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  background-color: #fff;
+  justify-content: center;
+}
+
+#nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10rem;
+}
+
+nav li {
+  font-weight: 500;
+}
+
+marquee {
+  display: flex;
+  background-color: #111;
+  height: 40px;
+  width: 100%;
+  color: white;
+  align-items: center;
+  text-align: justify;
+}
+
+main {
+  display: flex;
+  padding: 4rem;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 4rem;
+}
+
+#banner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#banner img {
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  justify-content: space-around;
+  padding: 40px 80px;
+  font-size: 14px;
+  background-color: #ccc;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
